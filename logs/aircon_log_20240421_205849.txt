@@ -1,0 +1,22 @@
+2024-04-21 20:58:49,534 - INFO - Service started
+2024-04-21 20:58:52,828 - INFO - Room Temperature: 23.1
+2024-04-21 20:58:52,829 - INFO - Fan Open Ratio: 30
+2024-04-21 20:58:52,829 - INFO - AC Status: On
+2024-04-21 20:58:52,829 - INFO - Waiting for 5 minutes...
+2024-04-21 21:03:56,174 - INFO - Room Temperature: 23.0
+2024-04-21 21:03:56,174 - INFO - Fan Open Ratio: 20
+2024-04-21 21:03:56,174 - INFO - AC Status: On
+2024-04-21 21:03:56,174 - INFO - Waiting for 5 minutes...
+2024-04-21 21:08:59,277 - INFO - Room Temperature: 22.9
+2024-04-21 21:08:59,277 - INFO - Fan Open Ratio: 10
+2024-04-21 21:08:59,277 - INFO - AC Status: On
+2024-04-21 21:08:59,277 - INFO - Waiting for 5 minutes...
+2024-04-21 21:14:02,401 - INFO - Room Temperature: 22.9
+2024-04-21 21:14:02,401 - INFO - Fan Open Ratio: 10
+2024-04-21 21:14:02,401 - INFO - AC Status: On
+2024-04-21 21:14:02,401 - INFO - Waiting for 5 minutes...
+2024-04-21 21:19:05,259 - INFO - Turning AC off
+2024-04-21 21:19:05,259 - INFO - Room Temperature: 22.8
+2024-04-21 21:19:05,259 - INFO - Fan Open Ratio: 5
+2024-04-21 21:19:05,259 - INFO - AC Status: Off
+2024-04-21 21:19:05,260 - INFO - Waiting for 5 minutes...
