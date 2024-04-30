@@ -32,21 +32,20 @@ async def updateInfoAndDisplay(ip):
         flooms_open_ratio = flooms_open_ratio * 100
         flooms_open_ratio = round(flooms_open_ratio)
 
-        if flooms_open_ratio == 5:
+        if flooms_open_ratio < 20:
             await at.TurnAcOff(0)
             logging.info("Turning AC off")
         else:
             if acs[0].IsOn == "Off":
                 await at.TurnAcOn(0)
                 logging.info("Turning AC on")
-
             # Update room temperature
             await at.SetGroupToTemperatureByGroupName(room.GroupName, 23)
             await at.SetGroupToPercentByGroupName(room.GroupName, flooms_open_ratio)
+            logging.info(f"Room Temperature: {room.Temperature}")
+            logging.info(f"Fan Open Ratio: {flooms_open_ratio}")
+            logging.info(f"AC Status: {acs[0].IsOn}")
 
-        logging.info(f"Room Temperature: {room.Temperature}")
-        logging.info(f"Fan Open Ratio: {flooms_open_ratio}")
-        logging.info(f"AC Status: {acs[0].IsOn}")
     except Exception as e:
         logging.error(f"An error occurred: {str(e)}")
 
